@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <!-- Retro game font for Pokédex style -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pokedex</h1>
+
+        <div class="search-box">
+            <input id="searchInput" placeholder="Enter name or ID..." />
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <!-- Pokemon card container -->
+        <div id="pokemonContainer" class="pokemon-card"></div>
+
+        <!-- Audio element for cry playback -->
+        <audio id="cryAudio"></audio>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
